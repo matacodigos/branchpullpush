@@ -4,6 +4,15 @@
 	<title>Formulario</title>
 </head>
 <body>
+	<script type="text/javascript">
+	function doSomething(){
+		var nombre = document.getElementById("nombre");
+		var apellidop = document.getElementById("ap");
+		var apellidom = document.getElementById("am");
+		var kha = "Su nombre es: "+nombre.value +" "+ apellidop.value +" "+ apellidom.value;
+		alert(kha);
+	}
+</script>
 	<form autocomplete="off" novalidate="novalidate">
 
 		<label>Nombre:</label>
