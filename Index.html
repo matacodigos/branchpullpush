@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+</head>
+<body>
+	<form autocomplete="off" novalidate="novalidate">
+
+		<label>Nombre:</label>
+		<input type="text" name="nombre" id="nombre" maxlength="32" required onkeypress="return sololetras(event)">
+
+		<label>Apellido paterno: </label>
+		<input type="text" name="apellidop" id="ap" maxlength="16" required onkeypress="return sololetras(event)">
+
+		<label>Apellido materno:</label>
+		<input type="text" name="apellidom" id="am" maxlength="16" required onkeypress="return sololetras(event)">
+		<br>
+		<input type="submit" value="SIGUIENTE" onClick="doSomething()">
+
+	</form>
+</body>
+</html>
